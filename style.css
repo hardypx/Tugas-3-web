@@ -1,0 +1,105 @@
+html,body{
+	font-family:arial;
+	width : 1100px;
+	margin:0px; padding:0px;
+	margin: 2px auto;
+	background: #f5f5f0;
+}
+#header
+{
+	background: #00aeff;
+	color:white;
+	text-align: right;
+}
+div#kotak-menu{
+	padding:20px;
+	background: #00aeff;
+	font-family: Franklin Gothic Heavy;
+}
+.menu{
+	background:#006661;
+	padding:10px;
+	padding-left:50px;
+	padding-right:50px;
+	margin:8px;
+	margin-top:20px;
+	color:#ffffff;
+	text-decoration: none;
+	border-radius: 20px 20px 0px 0px;
+	border:2px solid #ffc400;
+
+}
+.menu:hover{
+	background:#00ccff;	
+	border-radius: 20px 20px 0px 0px;
+	
+}
+.kontiner{
+	height: 100%;
+	display: grid;
+	grid-template-rows:90% 10%;
+}
+#body{
+	display:grid;
+	grid-template-columns:20% 60% 20%;
+	padding-bottom:30px;
+	background:#000000;
+	height: 100%;
+}.b{
+	height: 100%;
+	background:#f8f7f7;
+	margin:1px;
+	padding:10px;
+}
+ul.daftar-menu li{
+	text-align: left;
+	margin:10px;
+	padding:8px;
+	background:#1f3b5c;
+	border-radius: 8px;
+	border: 2px solid #4dffd3;
+}
+ul.daftar-menu li:hover{
+	background:#008caf;	
+	
+}
+ul.daftar-menu li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+img.g{
+	width: 15%;
+	margin:15px;
+	border-radius:30px 0px 30px 0px;
+	border:2px solid #007acc;
+}div.gambar{
+	border-bottom:1px solid #008799;
+	margin:-10px;
+	margin-bottom:15px;
+}
+.isi{
+	height: 21pc;
+	overflow: scroll ;
+	text-align: justify;
+}
+div.kaki{
+	background:#005266;
+	padding:13px;
+	color:#e7e7e7;
+	height: 20%;
+}
+#logo{
+	background-color:#00ccc2;
+}
+#kategori{
+	font-family: Andalus;
+	background-color: #00ccc2;
+}
+p:first-letter{
+	font:bold 400% georgia, san-serif;
+	float: left;
+	color: #006600;
+}
+p{
+	text-align: justify;
+}
